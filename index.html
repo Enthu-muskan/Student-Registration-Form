@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div class="container">
+       <h1>Student Registration Form</h1>
+       <hr>
+       <form>
+         <label for="first name">First name</label>
+         <input type="text" id="first name"placeholder="first name ">
+
+         <label for="middle name">Middle name</label>
+         <input type="text" id="middle name"placeholder="middle name ">
+
+         <label for="last name">Last name</label>
+         <input type="text" id="last name"placeholder="last name ">
+
+         <label for="Course">Course :</label>
+         <select id="course">
+            <option>course</option>
+            <option>Btech</option>
+            <option>BCA</option>
+            <option>MBA</option>
+            <option>B.A</option>
+            <option>BBA</option>
+        </select>
+        
+        <label>Gender :</label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="other">other
+        
+        <label for="Phone">Phone :</label>
+        <input type="text" id="Phone-number" value="+91" placeholder="phone-no."required>
+       
+        <label for="address">Address :</label>
+        <textarea id="address"placeholder="current address" rows="4"></textarea>
+
+        <label for="e-mail">Email :</label>
+        <input type="text" id="Email" placeholder="Email"required>
+
+        <label for="password">Password:</label>
+        <input type="text" id="Password"  placeholder="Password"required>
+
+        <label for="re-password">Retype-Password:</label>
+        <input type="text" id="re-Password"  placeholder="Retype-Password"required>
+
+        <button type="submit">Register</button>
+    </form>
+          </div>
+</body>
+</html>
